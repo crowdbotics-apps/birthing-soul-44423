@@ -1,6 +1,6 @@
 import axios from "axios"
 const brittacarlisleappAPI = axios.create({
-  baseURL: "https://britta-carlisle-app-44423.botics.co",
+  baseURL: "https://birthing-soul-44423.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
